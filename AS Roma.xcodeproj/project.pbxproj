@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C6CE9772564374900AE78D2 /* AS_RomaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE9762564374900AE78D2 /* AS_RomaApp.swift */; };
+		6C6CE9792564374900AE78D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE9782564374900AE78D2 /* ContentView.swift */; };
+		6C6CE97B2564374900AE78D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE97A2564374900AE78D2 /* Assets.xcassets */; };
+		6C6CE97E2564374900AE78D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE97D2564374900AE78D2 /* Preview Assets.xcassets */; };
+		6C6CE9892564374900AE78D2 /* AS_RomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE9882564374900AE78D2 /* AS_RomaTests.swift */; };
+		6C6CE9942564374900AE78D2 /* AS_RomaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE9932564374900AE78D2 /* AS_RomaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C6CE9852564374900AE78D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6CE96B2564374800AE78D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6CE9722564374900AE78D2;
+			remoteInfo = "AS Roma";
+		};
+		6C6CE9902564374900AE78D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6CE96B2564374800AE78D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6CE9722564374900AE78D2;
+			remoteInfo = "AS Roma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C6CE9732564374900AE78D2 /* AS Roma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AS Roma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6CE9762564374900AE78D2 /* AS_RomaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AS_RomaApp.swift; sourceTree = "<group>"; };
+		6C6CE9782564374900AE78D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C6CE97A2564374900AE78D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C6CE97D2564374900AE78D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C6CE97F2564374900AE78D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6CE9842564374900AE78D2 /* AS RomaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AS RomaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6CE9882564374900AE78D2 /* AS_RomaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AS_RomaTests.swift; sourceTree = "<group>"; };
+		6C6CE98A2564374900AE78D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6CE98F2564374900AE78D2 /* AS RomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AS RomaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6CE9932564374900AE78D2 /* AS_RomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AS_RomaUITests.swift; sourceTree = "<group>"; };
+		6C6CE9952564374900AE78D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C6CE9702564374900AE78D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE9812564374900AE78D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE98C2564374900AE78D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C6CE96A2564374800AE78D2 = {
+			isa = PBXGroup;
+			children = (
+				6C6CE9752564374900AE78D2 /* AS Roma */,
+				6C6CE9872564374900AE78D2 /* AS RomaTests */,
+				6C6CE9922564374900AE78D2 /* AS RomaUITests */,
+				6C6CE9742564374900AE78D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C6CE9742564374900AE78D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE9732564374900AE78D2 /* AS Roma.app */,
+				6C6CE9842564374900AE78D2 /* AS RomaTests.xctest */,
+				6C6CE98F2564374900AE78D2 /* AS RomaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6CE9752564374900AE78D2 /* AS Roma */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE9762564374900AE78D2 /* AS_RomaApp.swift */,
+				6C6CE9782564374900AE78D2 /* ContentView.swift */,
+				6C6CE97A2564374900AE78D2 /* Assets.xcassets */,
+				6C6CE97F2564374900AE78D2 /* Info.plist */,
+				6C6CE97C2564374900AE78D2 /* Preview Content */,
+			);
+			path = "AS Roma";
+			sourceTree = "<group>";
+		};
+		6C6CE97C2564374900AE78D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE97D2564374900AE78D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C6CE9872564374900AE78D2 /* AS RomaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE9882564374900AE78D2 /* AS_RomaTests.swift */,
+				6C6CE98A2564374900AE78D2 /* Info.plist */,
+			);
+			path = "AS RomaTests";
+			sourceTree = "<group>";
+		};
+		6C6CE9922564374900AE78D2 /* AS RomaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE9932564374900AE78D2 /* AS_RomaUITests.swift */,
+				6C6CE9952564374900AE78D2 /* Info.plist */,
+			);
+			path = "AS RomaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C6CE9722564374900AE78D2 /* AS Roma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6CE9982564374900AE78D2 /* Build configuration list for PBXNativeTarget "AS Roma" */;
+			buildPhases = (
+				6C6CE96F2564374900AE78D2 /* Sources */,
+				6C6CE9702564374900AE78D2 /* Frameworks */,
+				6C6CE9712564374900AE78D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AS Roma";
+			productName = "AS Roma";
+			productReference = 6C6CE9732564374900AE78D2 /* AS Roma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C6CE9832564374900AE78D2 /* AS RomaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6CE99B2564374900AE78D2 /* Build configuration list for PBXNativeTarget "AS RomaTests" */;
+			buildPhases = (
+				6C6CE9802564374900AE78D2 /* Sources */,
+				6C6CE9812564374900AE78D2 /* Frameworks */,
+				6C6CE9822564374900AE78D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6CE9862564374900AE78D2 /* PBXTargetDependency */,
+			);
+			name = "AS RomaTests";
+			productName = "AS RomaTests";
+			productReference = 6C6CE9842564374900AE78D2 /* AS RomaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C6CE98E2564374900AE78D2 /* AS RomaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6CE99E2564374900AE78D2 /* Build configuration list for PBXNativeTarget "AS RomaUITests" */;
+			buildPhases = (
+				6C6CE98B2564374900AE78D2 /* Sources */,
+				6C6CE98C2564374900AE78D2 /* Frameworks */,
+				6C6CE98D2564374900AE78D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6CE9912564374900AE78D2 /* PBXTargetDependency */,
+			);
+			name = "AS RomaUITests";
+			productName = "AS RomaUITests";
+			productReference = 6C6CE98F2564374900AE78D2 /* AS RomaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6CE96B2564374800AE78D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6C6CE9722564374900AE78D2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6C6CE9832564374900AE78D2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6C6CE9722564374900AE78D2;
+					};
+					6C6CE98E2564374900AE78D2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6C6CE9722564374900AE78D2;
+					};
+				};
+			};
+			buildConfigurationList = 6C6CE96E2564374800AE78D2 /* Build configuration list for PBXProject "AS Roma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C6CE96A2564374800AE78D2;
+			productRefGroup = 6C6CE9742564374900AE78D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6CE9722564374900AE78D2 /* AS Roma */,
+				6C6CE9832564374900AE78D2 /* AS RomaTests */,
+				6C6CE98E2564374900AE78D2 /* AS RomaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C6CE9712564374900AE78D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6CE97E2564374900AE78D2 /* Preview Assets.xcassets in Resources */,
+				6C6CE97B2564374900AE78D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE9822564374900AE78D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE98D2564374900AE78D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6CE96F2564374900AE78D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6CE9792564374900AE78D2 /* ContentView.swift in Sources */,
+				6C6CE9772564374900AE78D2 /* AS_RomaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE9802564374900AE78D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6CE9892564374900AE78D2 /* AS_RomaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE98B2564374900AE78D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6CE9942564374900AE78D2 /* AS_RomaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C6CE9862564374900AE78D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6CE9722564374900AE78D2 /* AS Roma */;
+			targetProxy = 6C6CE9852564374900AE78D2 /* PBXContainerItemProxy */;
+		};
+		6C6CE9912564374900AE78D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6CE9722564374900AE78D2 /* AS Roma */;
+			targetProxy = 6C6CE9902564374900AE78D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C6CE9962564374900AE78D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C6CE9972564374900AE78D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C6CE9992564374900AE78D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AS Roma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AS Roma/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.warpdev.AS-Roma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C6CE99A2564374900AE78D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AS Roma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AS Roma/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.warpdev.AS-Roma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C6CE99C2564374900AE78D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AS RomaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.warpdev.AS-RomaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AS Roma.app/AS Roma";
+			};
+			name = Debug;
+		};
+		6C6CE99D2564374900AE78D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AS RomaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.warpdev.AS-RomaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AS Roma.app/AS Roma";
+			};
+			name = Release;
+		};
+		6C6CE99F2564374900AE78D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AS RomaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.warpdev.AS-RomaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AS Roma";
+			};
+			name = Debug;
+		};
+		6C6CE9A02564374900AE78D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AS RomaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.warpdev.AS-RomaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AS Roma";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6CE96E2564374800AE78D2 /* Build configuration list for PBXProject "AS Roma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE9962564374900AE78D2 /* Debug */,
+				6C6CE9972564374900AE78D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6CE9982564374900AE78D2 /* Build configuration list for PBXNativeTarget "AS Roma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE9992564374900AE78D2 /* Debug */,
+				6C6CE99A2564374900AE78D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6CE99B2564374900AE78D2 /* Build configuration list for PBXNativeTarget "AS RomaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE99C2564374900AE78D2 /* Debug */,
+				6C6CE99D2564374900AE78D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6CE99E2564374900AE78D2 /* Build configuration list for PBXNativeTarget "AS RomaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE99F2564374900AE78D2 /* Debug */,
+				6C6CE9A02564374900AE78D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6CE96B2564374800AE78D2 /* Project object */;
+}
